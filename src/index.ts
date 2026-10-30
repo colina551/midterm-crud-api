@@ -1,4 +1,4 @@
-import 'reflect-metadata';  // MUST be first import!
+import 'reflect-metadata';  
 import express from 'express';
 import cors from 'cors';
 import { AppDataSource } from './config/data-source';
@@ -11,7 +11,7 @@ dotenv.config();
 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 
 // Middleware
